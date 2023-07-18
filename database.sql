@@ -1138,6 +1138,10 @@ INSERT INTO `migration_versions` VALUES
 ('Pimcore\\Bundle\\CoreBundle\\Migrations\\Version20230424084415',NULL,NULL),
 ('Pimcore\\Bundle\\CoreBundle\\Migrations\\Version20230428112302',NULL,NULL),
 ('Pimcore\\Bundle\\CoreBundle\\Migrations\\Version20230508121105',NULL,NULL),
+('Pimcore\\Bundle\\CoreBundle\\Migrations\\Version20230516161000','2023-07-18 17:25:15',7),
+('Pimcore\\Bundle\\CoreBundle\\Migrations\\Version20230517115427','2023-07-18 17:25:15',1),
+('Pimcore\\Bundle\\CoreBundle\\Migrations\\Version20230525131748','2023-07-18 17:25:15',1),
+('Pimcore\\Bundle\\CoreBundle\\Migrations\\Version20230606112233','2023-07-18 17:25:15',0),
 ('Pimcore\\Bundle\\CoreBundle\\Migrations\\Version22020614115124',NULL,NULL);
 /*!40000 ALTER TABLE `migration_versions` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1851,6 +1855,7 @@ INSERT INTO `users_permission_definitions` VALUES
 ('assets',''),
 ('asset_metadata',''),
 ('classes',''),
+('classificationstore',''),
 ('clear_cache',''),
 ('clear_fullpage_cache',''),
 ('clear_temp_files',''),
@@ -1858,14 +1863,17 @@ INSERT INTO `users_permission_definitions` VALUES
 ('documents',''),
 ('document_types',''),
 ('emails',''),
+('fieldcollections',''),
 ('gdpr_data_extractor','Pimcore Admin Bundle'),
 ('http_errors','Pimcore Seo Bundle'),
 ('notes_events',''),
 ('notifications',''),
 ('notifications_send',''),
+('objectbricks',''),
 ('objects',''),
 ('objects_sort_method',''),
 ('predefined_properties',''),
+('quantityValueUnits',''),
 ('recyclebin',''),
 ('redirects',''),
 ('reports','Pimcore Custom Reports Bundle'),
@@ -2119,4 +2127,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-07-18 17:06:54
+-- Dump completed on 2023-07-18 17:25:54
