@@ -11,3 +11,9 @@ docker compose exec db mysql -upimcore -ppimcore pimcore < database.sql
 docker compose exec php bin/console pimcore:deployment:classes-rebuild
 docker compose exec php composer install
 ```
+
+## Admin access
+
+User: admin
+
+Password: local
